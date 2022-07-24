@@ -1,0 +1,19 @@
+Fontes:
+Titulo Principal
+
+Anton
+
+link: @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+Titulo Secundario e Terciario
+
+Abril Fatface
+
+link: @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&display=swap');
+
+Cores:
+#011638
+#364156
+#CDCDCD
+#DFF8EB
+#214E34
