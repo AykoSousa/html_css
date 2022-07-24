@@ -79,13 +79,12 @@ main h2 {
 main p {
     text-align: justify;
     line-height: 30px;
+    padding: 5px;
 }
 
 main h3 {
     font-family: "Abril Fatface";
-    background-color: var(--cor3);
     border-radius: 5px 5px 0px 0px;
-    margin-top: 5px;
 }
 
 div {
@@ -107,7 +106,13 @@ div {
 
 aside {
     background-color: var(--cor3);
+    margin: 1px 0px 0px 0px;
+    border-radius: 5px;
+    
+}
 
+aside p {
+    margin: 0px;
 }
 
 footer {
