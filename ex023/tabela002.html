@@ -16,6 +16,7 @@
             background-color: lightgray;
         }
         table {
+            position: relative;
             width: 500px;
             border-collapse: collapse;
         }
@@ -28,8 +29,17 @@
             background-color: gray;
             color: white;
         }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
         .num {
             text-align: center;
+        }
+        /* Efeito zebrado */
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
         }
     </style>
 </head>
